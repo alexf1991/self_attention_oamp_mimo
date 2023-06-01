@@ -6,7 +6,10 @@ Install all dependencies using the "environment.yml" file.
 ```
 conda env create -f environment.yml
 ```
-
+# Generate data
+```
+python GIT/self-attention-mimo/scripts/generate_data.py --data_dir path/to/data
+```
 ## Training
 ### Training a self-attention model
 Set the "data_path" in the config.json file to your desired data path, e.g., "path/to/data/5dB"

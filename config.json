@@ -1,5 +1,5 @@
 {
-    "data_path": "/srv/user/TUG/fuchs-tug/MIMO_DATA/16x8_MIMO/XdB",
+    "data_path": "/srv/user/TUG/your/dir/XdB",
     "train_percentage":0.4,
     "val_percentage":0.1,
     "iterations":10,
